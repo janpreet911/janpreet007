@@ -106,10 +106,13 @@ h1 {
     flex-direction: column;
     justify-content: center;
     width: 723px;
-    height: 609px;
+    height: 607px;
     background-color: #f05a28;
     padding-left: 6.25rem;
+    border-bottom: 1px solid;
+    box-shadow: 5px 10px 8px 10px #9a9898;
 }
+
 .h-section2{
     font-size: 34px;
 line-height: 72px;
@@ -120,6 +123,7 @@ margin-top: -2.4rem;
 padding-top: 1rem;
 padding-bottom: 1rem;
 }
+
 h2{
     font-size: 55px;
 line-height: 72px;
@@ -128,7 +132,25 @@ color: #ffffff;
 margin-top: -2rem;
 }
 
-.btn-2 {
+.btn-2  {
+    font-size: 18px;
+line-height: 24px;
+text-transform: uppercase;
+color: #ffffff;
+font-weight: 700;
+text-align: center;
+    text-decoration: none;
+    padding: 20px 45px;
+    background-color: #000;
+  
+}
+.btn-2:hover{
+    border: 2px solid purple;
+}
+
+
+
+/* .btn-2 {
     width: 221px;
     height: 59px;
     background-color: #000000;
@@ -141,26 +163,33 @@ margin-top: -2rem;
     text-align: center;
     padding: 1rem 0rem;
 }
+.btn-2:hover{
+    border: 3px solid purple;
+} */
 
 .btn-2outer {
-    margin-top: -5.5rem;
+    margin-top: -6.5rem;
+    padding-top: 1.2rem;
 }
 
 .para-2 {
   
-    width: 902px;
+    width: 561px;
     height: 370px;
     font-size: 20px;
     line-height: 27px;
     color: #ffffff;
-    font-family: "Avenir Next";
-    padding: 1.5rem 0;
+    font-family: 'Inter', sans-serif;
+    padding-top: 1.2rem;
+    
+    
 }
 h2 {
     font-size: 55px;
     line-height: 72px;
     text-transform: uppercase;
     color: #ffffff;
+    font-weight: 400;
    
 }
 
@@ -180,7 +209,11 @@ h3 {
     text-align: center;
     padding-bottom: 2.9rem;
     font-weight: 500;
+}h4{
+    padding-bottom: 2rem;
 }
+
+
 .section-5 {
     background: url(./images/section-4bg.png);
     height: 768px;
@@ -276,6 +309,11 @@ padding-top: 24.8rem;
     padding-right: 0.5rem;
     padding-left: 0.7rem;
 }
+.insta:hover{
+    padding-right: 0.5rem;
+    padding-left: 1.2rem;
+    transform: scale(1.2);
+}
 h6{
     font-size: 16px;
 line-height: 20px;
@@ -292,6 +330,20 @@ font-weight: 500;
 footer.last {
     margin-top: 7.8rem;
 }
+.youtube:hover{
+    transform: scale(1.2);
+
+}
+.owner{
+    border-bottom: 1px solid;
+  box-shadow: 5px 10px 8px 10px #9a9898;
+}
+.image-section2 {
+    border-bottom: 1px solid;
+    box-shadow: 5px 10px 8px 10px #9a9898;
+    height: 607px;
+}
+
 
 
 
